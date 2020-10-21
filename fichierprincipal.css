@@ -299,11 +299,14 @@ a {
   height: 35px;
 }
 /*positionnement header du sous menu1 */
-.alpha {
+
+.social-media{
   width: 40px;
   height: 40px;
-  margin-left: 150px;
+  margin-left: 170px;
   margin-top: 25px;
+  color:darkorange;
+  font-size: 40px;
 }
 .alpha1 {
   position: absolute;
@@ -462,9 +465,10 @@ a {
   margin-top: -140px;
   margin-left: 100px;
 }
-.alpha9 {
+.social-media1 {
   width: 25px;
   height: 25px;
+  color:darkorange;
 }
 
 .alpha10 {
@@ -517,7 +521,7 @@ p {
 .titre:before {
   position: absolute;
   margin-top: 20px;
-  left: 44.5%;
+  margin-left: 5px;
   content: "";
   transition: ease-in-out 0.4s;
   width: 0px;
@@ -538,8 +542,7 @@ p {
 }
 .titre1:before {
   position: absolute;
-  top: 56%;
-  margin-top: 10px;
+  margin-top: 20px;
   content: "";
   transition: ease-in-out 0.4s;
   width: 0px;
@@ -561,8 +564,8 @@ p {
 }
 .titre2:before {
   position: absolute;
-  top: 72.5%;
-  left: 45%;
+  margin-top: 20px;
+  margin-left: 5px;
   content: "";
   transition: ease-in-out 0.4s;
   width: 0px;

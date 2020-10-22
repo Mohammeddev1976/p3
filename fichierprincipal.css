@@ -354,7 +354,7 @@ a {
   content: "";
   position: absolute;
   margin-top: 22px;
-  margin-left: 15px;
+  margin-left:0px;
   transition: ease-in-out 0.4s;
   width: 0px;
   height: 1.5px;
@@ -376,11 +376,10 @@ a {
 .btnbis {
   position: absolute;
   color: black;
-  display: block;
   font-size: 13px;
   font-family: "Segoe Script";
   text-decoration: none;
-  margin-top: 18px;
+  margin-top: 50px;
   margin-left: -8px;
 }
 
@@ -389,7 +388,7 @@ a {
   content: "";
   position: absolute;
   margin-top: 19.5px;
-  margin-left: 15px;
+  margin-left:0px;
   transition: ease-in-out 0.4s;
   width: 0px;
   height: 2px;
@@ -411,12 +410,11 @@ a {
 .btnbis1 {
   position: absolute;
   color: black;
-  display: block;
   font-size: 11.5px;
   font-family: "Segoe Script";
   text-decoration: none;
   margin-left: 30px;
-  margin-top: 21px;
+  margin-top: 50px;
 }
 
 .btnbis1:before {
@@ -424,21 +422,42 @@ a {
   content: "";
   position: absolute;
   margin-top: 17px;
-  margin-left: 2px;
+  margin-left:0px;
   transition: ease-in-out 0.4s;
   width: 0%;
-  height: 2px;
+  height: 1.5px;
 }
 
 .btnbis1:hover:before {
-  width: 100%;
+  width:120px;
 }
+
+.trait
+
+{
+margin-right: 250px;
+margin-top: 0px;
+width: 30%;
+height: 2px;
+background-color: #000000;
+}
+
+.trait-right
+
+{
+margin-left: 240px;
+margin-top:-12px;
+width: 30%;
+height: 2px;
+background-color: #000000;
+}
+
+
+
 
 .alpha4 {
   font-size: 8px;
-  margin-left: 0px;
-  margin-top: -50px;
-  line-height: 18px;
+  margin-left: 0px
 }
 .alpha5 {
   width: 100px;
@@ -580,6 +599,7 @@ p {
 .lignebis1 {
   position: absolute;
   margin-top: 5px;
+  height: 18px;
 }
 .lignebis {
   position: absolute;

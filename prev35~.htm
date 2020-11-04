@@ -1,0 +1,1563 @@
+<!DOCTYPE html><html><head><title>Preview</title>
+<style type="text/css"><!--
+/* CSS menu principal */
+.item0 {
+  color: #ffcc00;
+  margin-top: 8px;
+  text-align: center;
+}
+/*animation point de suspenson */
+
+.item0bis {
+  text-align: center;
+  color: #ffcc00;
+  margin-top: 2px;
+  font-size: 20px;
+}
+
+.item0bis:after {
+  display: inline-block;
+  animation: dotty steps(1, end) 2s infinite;
+  content: "";
+}
+
+@keyframes dotty {
+  0% {
+    content: "";
+  }
+  25% {
+    content: ".";
+  }
+  50% {
+    content: "..";
+  }
+  75% {
+    content: "...";
+  }
+  100% {
+    content: "";
+  }
+}
+
+.item-mp {
+  padding-top: 10px;
+  text-align: center;
+  color: #ffcc00;
+}
+
+.box {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 70px;
+}
+
+.item1 {
+  background-color: #579c87;
+  width: 460px;
+  height: 70px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.box1 {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-flow: wrap;
+  flex-direction: column;
+  height: 380px;
+  width: 320px;
+  margin: auto;
+}
+
+.item2 {
+  box-shadow: 1px 1px 3px 4px #bfbfbf;
+  width: 140px;
+  height: 180px;
+  text-decoration: none;
+}
+
+.item3 {
+  background-color: #e8e8e8;
+  box-shadow: 1px 1px 3px 4px #bfbfbf;
+  width: 140px;
+  height: 180px;
+}
+
+.item4 {
+  background-color: #f6daed;
+  width: 140px;
+  height: 180px;
+  box-shadow: 1px 1px 3px 4px #bfbfbf;
+}
+
+.item5 {
+  background-color: #ffffff;
+  width: 140px;
+  height: 180px;
+  box-shadow: 1px 1px 3px 4px #bfbfbf;
+}
+.box2 {
+  display: flex;
+
+  flex-direction: column;
+
+  margin-top: 15px;
+  align-items: center;
+}
+
+.item6 {
+  background-color: #289f77;
+  height: 30px;
+  width: 200px;
+  border-radius: 6px 6px 6px 6px;
+}
+
+.item7 {
+  background-color: #579c87;
+  height: 35px;
+  width: 460px;
+  margin-top: 20px;
+}
+/* mise en page item2 */
+
+.intro1 {
+  margin-left: 45px;
+}
+
+.intro2 {
+  width: 100px;
+  height: 22px;
+  font-size: 13px;
+  margin-left: 20px;
+  background-color: white;
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.intro3 {
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.intro4 {
+  font-size: 13px;
+  margin-left: 20px;
+  margin-top: 70px;
+}
+
+.intro5 {
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.intro6 {
+  font-size: 13px;
+  margin-left: 10px;
+  margin-top: 95px;
+}
+
+.intro7 {
+  font-size: 13px;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+.intro8 {
+  font-size: 13px;
+  margin-left: 30px;
+  margin-top: 70px;
+}
+
+.intro9 {
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+/*css pied de page de tout les menus */
+.intro10 {
+  margin-left: 320px;
+  margin-top: -30px;
+  color: #ffcc00;
+  text-decoration: none;
+  font-size: 11px;
+  font-size: 11px;
+}
+
+.intro11 {
+  margin-left: 5px;
+  margin-top: 5px;
+  color: #ffcc00;
+  font-size: 11px;
+  text-decoration: none;
+
+  width: 75px;
+}
+
+.intro10:hover {
+  animation: identifier 0.2s ease-in-out infinite alternate;
+}
+
+.intro11:hover {
+  animation: identifier 0.2s ease-in-out infinite alternate;
+}
+
+@keyframes identifier {
+  from {
+    -webkit-transform: rotate(25deg);
+  }
+
+  to {
+    transform: rotate(-25deg);
+    transform-origin: center;
+  }
+}
+
+/* CSS sous  menu1  */
+.price {
+  margin-left: 20px;
+}
+
+.price1 {
+  margin-left: 65px;
+}
+
+.price2 {
+  margin-left: 26px;
+}
+
+.price3 {
+  margin-left: 22px;
+}
+
+.price4 {
+  margin-left: 5px;
+}
+
+.price5 {
+  margin-left: 94px;
+}
+
+.price6 {
+  margin-left: 18px;
+}
+
+.box3 {
+  justify-content: center;
+  display: flex;
+  align-items: stretch;
+  height: 55px;
+}
+
+.item8 {
+  background-color: #579c87;
+  width: 460px;
+  height: 70px;
+}
+
+.box4 {
+  justify-content: center;
+  display: flex;
+  align-items: stretch;
+  height: 55px;
+  margin-top: 0px;
+}
+.item9 {
+  font-size: 25px;
+}
+.box5 {
+  justify-content: center;
+  display: flex;
+  align-items: stretch;
+  margin-top: -20px;
+}
+.item10 {
+  background-color: #ffe0e0;
+  width: 380px;
+  font-family: "Segoe Script";
+  height: 500px;
+}
+
+.box6 {
+  justify-content: center;
+  display: flex;
+  align-items: stretch;
+
+  height: 35px;
+  margin-top: 10px;
+}
+.item11 {
+  background-color: #579c87;
+  width: 460px;
+  height: 35px;
+}
+/*positionnement header du sous menu1 */
+
+.social-media{
+  width: 40px;
+  height: 40px;
+  margin-left: 170px;
+  margin-top: 25px;
+  color:darkorange;
+  font-size: 40px;
+}
+.alpha1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin-left: 30px;
+  margin-top: -50px;
+}
+
+.alpha2 {
+  font-size: 22px;
+  text-align: center;
+  margin-top: -8px;
+  font-weight: bold;
+  word-spacing: 0px;
+}
+.alpha3 {
+  width: 50px;
+  height: 50px;
+  margin-top: -50px;
+  margin-left: 230px;
+}
+/*effet graphique  */
+.centre {
+  position: relative;
+  margin-top: -65px;
+  margin-left: 175px;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  width: 100px;
+}
+.btn {
+  position: absolute;
+  color: black;
+  display: block;
+  font-size: 15px;
+  font-family: "Segoe Script";
+  text-decoration: none;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+.btn:before {
+  background: black;
+  content: "";
+  position: absolute;
+  margin-top: 22px;
+  margin-left:0px;
+  transition: ease-in-out 0.4s;
+  width: 0px;
+  height: 1.5px;
+}
+
+.btn:hover:before {
+  width: 62px;
+}
+
+.centrebis {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 230px;
+  transform: translate(-50%, -50%);
+  margin-bottom: 10px;
+  height: 35px;
+  width: 180px;
+}
+.btnbis {
+  position: absolute;
+  color: black;
+  font-size: 13px;
+  font-family: "Segoe Script";
+  text-decoration: none;
+  margin-top: 50px;
+  margin-left: -8px;
+}
+
+.btnbis:before {
+  background: black;
+  content: "";
+  position: absolute;
+  margin-top: 19.5px;
+  margin-left:0px;
+  transition: ease-in-out 0.4s;
+  width: 0px;
+  height: 2px;
+}
+
+.btnbis:hover:before {
+  width: 100px;
+}
+
+.centrebis1 {
+  position: relative;
+  margin-top: 15px;
+  margin-left: 190px;
+  transform: translate(-50%, -50%);
+  margin-bottom: 10px;
+  height: 35px;
+  width: 180px;
+}
+.btnbis1 {
+  position: absolute;
+  color: black;
+  font-size: 11.5px;
+  font-family: "Segoe Script";
+  text-decoration: none;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.btnbis1:before {
+  background: black;
+  content: "";
+  position: absolute;
+  margin-top: 17px;
+  margin-left:0px;
+  transition: ease-in-out 0.4s;
+  width: 0%;
+  height: 1.5px;
+}
+
+.btnbis1:hover:before {
+  width:120px;
+}
+
+.trait
+
+{
+margin-right: 250px;
+margin-top: 0px;
+width: 30%;
+height: 2px;
+background-color: #000000;
+}
+
+.trait-right
+
+{
+margin-left: 240px;
+margin-top:-12px;
+width: 30%;
+height: 2px;
+background-color: #000000;
+}
+
+
+
+
+.alpha4 {
+  font-size: 8px;
+  margin-left: 0px
+}
+.alpha5 {
+  width: 100px;
+  height: 100px;
+  margin-left: 30px;
+  margin-top: -150px;
+}
+.alpha6 {
+  width: 100px;
+  height: 100px;
+  margin-top: -150px;
+  margin-left: 100px;
+}
+.alpha7 {
+  width: 100px;
+  height: 100px;
+  margin-left: 30px;
+  margin-top: -140px;
+}
+
+.alpha8 {
+  width: 100px;
+  height: 100px;
+  margin-top: -140px;
+  margin-left: 100px;
+}
+.social-media1 {
+  width: 25px;
+  height: 25px;
+  color:darkorange;
+}
+
+.alpha10 {
+  font-size: 16px;
+  margin-left: 100px;
+}
+
+/* effet  zoom et opacite  pour le menu principal */
+  
+.intro1,
+.intro2,
+.intro3,
+.intro4,
+.intro5,
+.intro6,
+.intro7,
+.intro8,
+.intro9 {
+  transition: ease-in-out 1s;
+}
+ 
+.intro1:hover,
+.intro2:hover,
+.intro3:hover, 
+.intro4:hover,
+.intro5:hover,
+.intro6:hover,
+.intro7:hover,
+.intro8:hover,
+.intro9:hover {
+  transform: scale(1.8);
+  opacity: 0.7;
+}
+
+/*css sous menu2  */
+p {
+  font-size: 8px;
+  padding-left: 5%;
+  padding-right: 0%;
+  padding-top: 7px;
+}
+.titre {
+  margin-left: 100px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: bold;
+  width: 170px;
+  height: 20px;
+}
+.titre:before {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 5px;
+  content: "";
+  transition: ease-in-out 0.4s;
+  width: 0px;
+  height: 2.5px;
+  background-color: black;
+}
+
+.titre:hover:before {
+  width: 130px;
+}
+.titre1 {
+  margin-left: 100px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: bold;
+  width: 170px;
+  height: 20px;
+}
+.titre1:before {
+  position: absolute;
+  margin-top: 20px;
+  content: "";
+  transition: ease-in-out 0.4s;
+  width: 0px;
+  height: 2px;
+  background-color: black;
+}
+
+.titre1:hover:before {
+  width: 130px;
+}
+
+.titre2 {
+  margin-left: 100px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: bold;
+  width: 170px;
+  height: 20px;
+}
+.titre2:before {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 5px;
+  content: "";
+  transition: ease-in-out 0.4s;
+  width: 0px;
+  height: 2.5px;
+  background-color: black;
+}
+
+.titre2:hover:before {
+  width: 130px;
+}
+
+.lignebis1 {
+  position: absolute;
+  margin-top: 5px;
+  height: 18px;
+}
+.lignebis {
+  position: absolute;
+  margin-left: 260px;
+  margin-top: 0px;
+  height: 25px;
+}
+.lignebis2 {
+  position: absolute;
+  margin-top: -25px;
+}
+.lignebis3 {
+  position: absolute;
+  margin-left: 260px;
+  margin-top: -30px;
+  height: 25px;
+}
+
+.couleur {
+  color: #0448e7;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.box7 {
+  justify-content: center;
+  display: flex;
+  align-items: stretch;
+  height: 55px;
+}
+
+.item12 {
+  background-color: #579c87;
+  width: 460px;
+  height: 70px;
+}
+
+.box8 {
+  justify-content: center;
+  display: flex;
+  align-items: stretch;
+  height: 55px;
+  margin-top: 0px;
+}
+.item13 {
+  font-size: 25px;
+}
+.box9 {
+  justify-content: center;
+  display: flex;
+  align-items: stretch;
+  height: 440px;
+  margin-top: -20px;
+  font-family: "Segoe Script";
+}
+.item14 {
+  background-color: #edefef;
+  width: 380px;
+  font-family: "Segoe Script";
+}
+
+.box10 {
+  justify-content: center;
+  display: flex;
+  align-items: stretch;
+
+  height: 35px;
+  margin-top: 10px;
+}
+.item15 {
+  background-color: #579c87;
+  width: 460px;
+  height: 35px;
+}
+/*Css sousmenu3  */
+.box11 {
+  justify-content: center;
+  display: flex;
+  align-items: stretch;
+  height: 55px;
+}
+
+.item16 {
+  background-color: #579c87;
+  width: 460px;
+  height: 70px;
+}
+
+.box12 {
+  justify-content: center;
+  display: flex;
+  align-items: stretch;
+  height: 55px;
+  margin-top: 0px;
+}
+.item17 {
+  font-size: 25px;
+}
+.box13 {
+  justify-content: center;
+  display: flex;
+  align-items: stretch;
+  height: 440px;
+  margin-top: -20px;
+}
+.item18 {
+  background-color: #fff5fe;
+  width: 380px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.box14 {
+  justify-content: center;
+  display: flex;
+  align-items: stretch;
+
+  height: 35px;
+  margin-top: 10px;
+}
+.item19 {
+  background-color: #579c87;
+  width: 460px;
+  height: 35px;
+}
+/*css partie section sousmenu3 */
+.beta {
+  text-align: center;
+  font-size: 19px;
+  margin-top: 50px;
+  color: #b16da0;
+  font-weight: bold;
+  word-spacing: 9px;
+}
+.centrebis2 {
+  position: relative;
+  margin-top: 15px;
+  margin-left: 190px;
+  transform: translate(-50%, -50%);
+  margin-bottom: 10px;
+  height: 35px;
+  width: 220px;
+}
+.btnbis2 {
+  font-size: 12px;
+  position: relative;
+  color: black;
+  display: block;
+  font-size: 15px;
+  font-family: "lato";
+  text-decoration: none;
+  padding: 20px 30px;
+  transition: 1s all ease;
+}
+.btnbis2:before {
+  background: black;
+  content: "";
+  position: absolute;
+  top: 65%;
+  left: 12%;
+  z-index: -1; /* pour qu'il se mette en dessous du titre  test après */
+  transition: all 0.6s ease;
+  width: 0%;
+  height: 1.5%;
+}
+.btnbis2:hover:before {
+  width: 70%;
+}
+
+.fleche {
+  position: absolute;
+  width: 115px;
+  height: 30px;
+  margin-top: 1px;
+  margin-left: 260px;
+}
+.fleche1 {
+  position: absolute;
+  width: 112px;
+  height: 30px;
+  margin-top: -3px;
+  margin-left: 0px;
+}
+
+.beta4 {
+  margin-top: -25px;
+  font-size: 10px;
+  margin-left: 35px;
+  color: #c77412;
+}
+
+.centrebis3 {
+  position: relative;
+  margin-top: 15px;
+  margin-left: 190px;
+  transform: translate(-50%, -50%);
+  margin-bottom: 10px;
+  height: 35px;
+  width: 220px;
+}
+
+.btnbis3 {
+  font-size: 12px;
+  position: relative;
+  color: black;
+  display: block;
+  font-size: 15px;
+  font-family: "lato";
+  text-decoration: none;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.btnbis3:before {
+  background: black;
+  content: "";
+  position: absolute;
+  top: 90%;
+  left: 13%;
+  transition: all 0.6s ease;
+  width: 0px;
+  height: 1.6px;
+}
+.btnbis3:hover:before {
+  width: 120px;
+}
+
+.fleche3 {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  margin-top: 5px;
+  margin-left: 3px;
+}
+.fleche4 {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  margin-top: 5px;
+  margin-left: 270px;
+}
+.beta5 {
+  margin-top: -30px;
+  font-size: 9px;
+  line-height: 15px;
+  margin-left: 30px;
+  color: rgb(165, 103, 153);
+}
+
+.centrebis4 {
+  position: relative;
+  margin-top: 15px;
+  margin-left: 190px;
+  transform: translate(-50%, -50%);
+  margin-bottom: 10px;
+  height: 35px;
+  width: 220px;
+}
+
+.btnbis4 {
+  font-size: 12px;
+  position: relative;
+  color: black;
+  display: block;
+  font-size: 15px;
+  font-family: "lato";
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.btnbis4:before {
+  background: black;
+  content: "";
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 5px;
+  transition: ease-in-out 0.6s;
+  width: 0%;
+  height: 1.6px;
+}
+.btnbis4:hover:before {
+  width: 130px;
+}
+
+.fleche5 {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  margin-top: 0px;
+  margin-left: 3px;
+}
+.fleche6 {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  margin-top: 0px;
+  margin-left: 270px;
+}
+.beta6 {
+  line-height: 15px;
+  font-size: 9px;
+  margin-top: -20px;
+  margin-left: 30px;
+  color: rgb(165, 103, 153);
+}
+/*positionnement des prix  section sous menu2 */
+.price13 {
+  margin-left: 45%;
+}
+
+.price14 {
+  margin-left: 10%;
+}
+
+.price15 {
+  margin-left: 54.5%;
+}
+
+.price16 {
+  margin-left: 70px;
+}
+
+.price17 {
+  margin-left: 45%;
+}
+
+.price18 {
+  margin-left: 130px;
+}
+
+.price19 {
+  margin-left: 52%;
+}
+
+.price20 {
+  margin-left: 60%;
+}
+
+.price21 {
+  margin-left: 60%;
+}
+
+/* positionnement des prix section sous menu3 */
+.price7 {
+  margin-left: 70px;
+}
+.price8 {
+  margin-left: 135px;
+}
+.price9 {
+  margin-left: 108px;
+}
+.price10 {
+  margin-left: 30px;
+}
+.price11 {
+  margin-left: 60px;
+}
+.price12 {
+  margin-left: 30px;
+}
+
+/*css sous menu4  */
+.box15 {
+  justify-content: center;
+  display: flex;
+  align-items: stretch;
+  height: 55px;
+}
+.item20 {
+  background-color: #579c87;
+  width: 460px;
+  height: 70px;
+}
+.box16 {
+  justify-content: center;
+  display: flex;
+  align-items: stretch;
+  height: 55px;
+  margin-top: 0px;
+}
+.item21 {
+  font-size: 17px;
+}
+.box17 {
+  justify-content: center;
+  display: flex;
+  align-items: stretch;
+  height: 440px;
+  margin-top: -20px;
+}
+.item22 {
+  background-color: #fdfffd;
+  width: 380px;
+  font-family: "Segoe Script";
+}
+.box18 {
+  justify-content: center;
+  display: flex;
+  align-items: stretch;
+}
+.item23 {
+  background-color: #579c87;
+  width: 460px;
+  height: 35px;
+}
+/*css partie section*/
+.omega {
+  text-align: center;
+  font-size: 19px;
+  margin-top: 50px;
+  color: #b16da0;
+  font-weight: bold;
+  word-spacing: 9px;
+}
+.omega4 {
+  margin-top: -25px;
+  font-size: 8px;
+  margin-left: 5px;
+  color: #111111;
+}
+.omega5 {
+  margin-top: -30px;
+  font-size: 8px;
+  line-height: 15px;
+  margin-left: 5px;
+  color: #111111;
+}
+.omega6 {
+  line-height: 15px;
+  font-size: 8px;
+  margin-top: -20px;
+  margin-left: 5px;
+  color: #111111;
+}
+/* effet de soulignement */
+.cube {
+  position: relative;
+  margin-top: 15px;
+  margin-left: 190px;
+  transform: translate(-50%, -50%);
+  margin-bottom: 10px;
+  height: 35px;
+  width: 220px;
+}
+.title {
+  font-size: 12px;
+  position: relative;
+  color: black;
+  display: block;
+  font-size: 15px;
+  font-family: "lato";
+  text-decoration: none;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.title:before {
+  background: black;
+  content: "";
+  position: absolute;
+  top: 65%;
+  left: 35%;
+  transition: all ease-in-out 0.4s;
+  width: 0%;
+  height: 2%;
+}
+.title:hover:before {
+  width: 30%;
+  /*  */
+}
+.cube1 {
+  position: relative;
+  margin-top: 15px;
+  margin-left: 190px;
+  transform: translate(-50%, -50%);
+  margin-bottom: 10px;
+  height: 35px;
+  width: 220px;
+}
+
+.title1 {
+  font-size: 12px;
+  position: relative;
+  color: black;
+  display: block;
+  font-size: 15px;
+  font-family: "lato";
+  text-decoration: none;
+  margin-top: 25px;
+  text-align: center;
+}
+.title1:before {
+  background: black;
+  content: "";
+  position: absolute;
+  top: 90%;
+  left: 27%;
+  transition: all ease-in-out 0.4s;
+  width: 0px;
+  height: 1.6px;
+}
+.title1:hover:before {
+  width: 110px;
+}
+/*  */
+.cube2 {
+  position: relative;
+  margin-top: 15px;
+  margin-left: 190px;
+  transform: translate(-50%, -50%);
+  margin-bottom: 10px;
+  height: 35px;
+  width: 220px;
+}
+
+.title2 {
+  font-size: 12px;
+  position: relative;
+  color: black;
+  display: block;
+  font-size: 15px;
+  font-family: "lato";
+  text-decoration: none;
+  margin-top: 20px;
+  text-align: center;
+}
+.title2:before {
+  background: black;
+  content: "";
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 5px;
+  transition: all ease-in-out 0.4s;
+  width: 0%;
+  height: 1.6px;
+}
+.title2:hover:before {
+  width: 130px;
+}
+
+.price22 {
+  margin-left: 134px;
+}
+.price23 {
+  margin-left: 85px;
+}
+.price24 {
+  margin-left: 55px;
+}
+.price25 {
+  margin-left: 78px;
+}
+.price26 {
+  margin-left: 7px;
+}
+.price27 {
+  margin-left: 180px;
+}
+.price28 {
+  margin-left: 230px;
+}
+.price29 {
+  margin-left: 12px;
+}
+.price30 {
+  margin-left: 56px;
+}
+
+
+--></style>
+</head>
+<body>
+<a name="0"></a><div style="position: static;" class="item0">.item0</div>
+<br style="clear: both">
+<a name="1"></a><div style="position: static;" class="item0bis">.item0bis</div>
+<br style="clear: both">
+<a name="2"></a><div style="position: static;" class="item0bis">.item0bis:after</div>
+<br style="clear: both">
+<a name="3"></a><0% style="position: static;"><div style="position: static;">0% (@keyframes dotty)</div>
+</0%><br style="clear: both">
+<a name="4"></a><25% style="position: static;"><div style="position: static;">25% (@keyframes dotty)</div>
+</25%><br style="clear: both">
+<a name="5"></a><50% style="position: static;"><div style="position: static;">50% (@keyframes dotty)</div>
+</50%><br style="clear: both">
+<a name="6"></a><75% style="position: static;"><div style="position: static;">75% (@keyframes dotty)</div>
+</75%><br style="clear: both">
+<a name="7"></a><100% style="position: static;"><div style="position: static;">100% (@keyframes dotty)</div>
+</100%><br style="clear: both">
+<a name="8"></a><div style="position: static;" class="item-mp">.item-mp</div>
+<br style="clear: both">
+<a name="9"></a><div style="position: static;" class="box">.box</div>
+<br style="clear: both">
+<a name="10"></a><div style="position: static;" class="item1">.item1</div>
+<br style="clear: both">
+<a name="11"></a><div style="position: static;" class="box1">.box1</div>
+<br style="clear: both">
+<a name="12"></a><div style="position: static;" class="item2">.item2</div>
+<br style="clear: both">
+<a name="13"></a><div style="position: static;" class="item3">.item3</div>
+<br style="clear: both">
+<a name="14"></a><div style="position: static;" class="item4">.item4</div>
+<br style="clear: both">
+<a name="15"></a><div style="position: static;" class="item5">.item5</div>
+<br style="clear: both">
+<a name="16"></a><div style="position: static;" class="box2">.box2</div>
+<br style="clear: both">
+<a name="17"></a><div style="position: static;" class="item6">.item6</div>
+<br style="clear: both">
+<a name="18"></a><div style="position: static;" class="item7">.item7</div>
+<br style="clear: both">
+<a name="19"></a><div style="position: static;" class="intro1">.intro1</div>
+<br style="clear: both">
+<a name="20"></a><div style="position: static;" class="intro2">.intro2</div>
+<br style="clear: both">
+<a name="21"></a><a href="http://www.blumentals.net" target="_blank" style="position: static;">a</a><br style="clear: both">
+<a name="22"></a><div style="position: static;" class="intro3">.intro3</div>
+<br style="clear: both">
+<a name="23"></a><div style="position: static;" class="intro4">.intro4</div>
+<br style="clear: both">
+<a name="24"></a><div style="position: static;" class="intro5">.intro5</div>
+<br style="clear: both">
+<a name="25"></a><div style="position: static;" class="intro6">.intro6</div>
+<br style="clear: both">
+<a name="26"></a><div style="position: static;" class="intro7">.intro7</div>
+<br style="clear: both">
+<a name="27"></a><div style="position: static;" class="intro8">.intro8</div>
+<br style="clear: both">
+<a name="28"></a><div style="position: static;" class="intro9">.intro9</div>
+<br style="clear: both">
+<a name="29"></a><div style="position: static;" class="intro10">.intro10</div>
+<br style="clear: both">
+<a name="30"></a><div style="position: static;" class="intro11">.intro11</div>
+<br style="clear: both">
+<a name="31"></a><div style="position: static;" class="intro10">.intro10:hover</div>
+<br style="clear: both">
+<a name="32"></a><div style="position: static;" class="intro11">.intro11:hover</div>
+<br style="clear: both">
+<a name="33"></a><from style="position: static;"><div style="position: static;">from (@keyframes identifier)</div>
+</from><br style="clear: both">
+<a name="34"></a><to style="position: static;"><div style="position: static;">to (@keyframes identifier)</div>
+</to><br style="clear: both">
+<a name="35"></a><div style="position: static;" class="price">.price</div>
+<br style="clear: both">
+<a name="36"></a><div style="position: static;" class="price1">.price1</div>
+<br style="clear: both">
+<a name="37"></a><div style="position: static;" class="price2">.price2</div>
+<br style="clear: both">
+<a name="38"></a><div style="position: static;" class="price3">.price3</div>
+<br style="clear: both">
+<a name="39"></a><div style="position: static;" class="price4">.price4</div>
+<br style="clear: both">
+<a name="40"></a><div style="position: static;" class="price5">.price5</div>
+<br style="clear: both">
+<a name="41"></a><div style="position: static;" class="price6">.price6</div>
+<br style="clear: both">
+<a name="42"></a><div style="position: static;" class="box3">.box3</div>
+<br style="clear: both">
+<a name="43"></a><div style="position: static;" class="item8">.item8</div>
+<br style="clear: both">
+<a name="44"></a><div style="position: static;" class="box4">.box4</div>
+<br style="clear: both">
+<a name="45"></a><div style="position: static;" class="item9">.item9</div>
+<br style="clear: both">
+<a name="46"></a><div style="position: static;" class="box5">.box5</div>
+<br style="clear: both">
+<a name="47"></a><div style="position: static;" class="item10">.item10</div>
+<br style="clear: both">
+<a name="48"></a><div style="position: static;" class="box6">.box6</div>
+<br style="clear: both">
+<a name="49"></a><div style="position: static;" class="item11">.item11</div>
+<br style="clear: both">
+<a name="50"></a><div style="position: static;" class="social-media">.social-media</div>
+<br style="clear: both">
+<a name="51"></a><div style="position: static;" class="alpha1">.alpha1</div>
+<br style="clear: both">
+<a name="52"></a><div style="position: static;" class="alpha2">.alpha2</div>
+<br style="clear: both">
+<a name="53"></a><div style="position: static;" class="alpha3">.alpha3</div>
+<br style="clear: both">
+<a name="54"></a><div style="position: static;" class="centre">.centre</div>
+<br style="clear: both">
+<a name="55"></a><div style="position: static;" class="btn">.btn</div>
+<br style="clear: both">
+<a name="56"></a><div style="position: static;" class="btn">.btn:before</div>
+<br style="clear: both">
+<a name="57"></a><div style="position: static;" class="btn">.btn:hover:before</div>
+<br style="clear: both">
+<a name="58"></a><div style="position: static;" class="centrebis">.centrebis</div>
+<br style="clear: both">
+<a name="59"></a><div style="position: static;" class="btnbis">.btnbis</div>
+<br style="clear: both">
+<a name="60"></a><div style="position: static;" class="btnbis">.btnbis:before</div>
+<br style="clear: both">
+<a name="61"></a><div style="position: static;" class="btnbis">.btnbis:hover:before</div>
+<br style="clear: both">
+<a name="62"></a><div style="position: static;" class="centrebis1">.centrebis1</div>
+<br style="clear: both">
+<a name="63"></a><div style="position: static;" class="btnbis1">.btnbis1</div>
+<br style="clear: both">
+<a name="64"></a><div style="position: static;" class="btnbis1">.btnbis1:before</div>
+<br style="clear: both">
+<a name="65"></a><div style="position: static;" class="btnbis1">.btnbis1:hover:before</div>
+<br style="clear: both">
+<a name="66"></a><div style="position: static;" class="trait">.trait</div>
+<br style="clear: both">
+<a name="67"></a><div style="position: static;" class="trait-right">.trait-right</div>
+<br style="clear: both">
+<a name="68"></a><div style="position: static;" class="alpha4">.alpha4</div>
+<br style="clear: both">
+<a name="69"></a><div style="position: static;" class="alpha5">.alpha5</div>
+<br style="clear: both">
+<a name="70"></a><div style="position: static;" class="alpha6">.alpha6</div>
+<br style="clear: both">
+<a name="71"></a><div style="position: static;" class="alpha7">.alpha7</div>
+<br style="clear: both">
+<a name="72"></a><div style="position: static;" class="alpha8">.alpha8</div>
+<br style="clear: both">
+<a name="73"></a><div style="position: static;" class="social-media1">.social-media1</div>
+<br style="clear: both">
+<a name="74"></a><div style="position: static;" class="alpha10">.alpha10</div>
+<br style="clear: both">
+<a name="75"></a><div style="position: static;" class="intro1">.intro1</div>
+<br style="clear: both">
+<a name="76"></a><div style="position: static;" class="intro2">.intro2</div>
+<br style="clear: both">
+<a name="77"></a><div style="position: static;" class="intro3">.intro3</div>
+<br style="clear: both">
+<a name="78"></a><div style="position: static;" class="intro4">.intro4</div>
+<br style="clear: both">
+<a name="79"></a><div style="position: static;" class="intro5">.intro5</div>
+<br style="clear: both">
+<a name="80"></a><div style="position: static;" class="intro6">.intro6</div>
+<br style="clear: both">
+<a name="81"></a><div style="position: static;" class="intro7">.intro7</div>
+<br style="clear: both">
+<a name="82"></a><div style="position: static;" class="intro8">.intro8</div>
+<br style="clear: both">
+<a name="83"></a><div style="position: static;" class="intro9">.intro9</div>
+<br style="clear: both">
+<a name="84"></a><div style="position: static;" class="intro1">.intro1:hover</div>
+<br style="clear: both">
+<a name="85"></a><div style="position: static;" class="intro2">.intro2:hover</div>
+<br style="clear: both">
+<a name="86"></a><div style="position: static;" class="intro3">.intro3:hover</div>
+<br style="clear: both">
+<a name="87"></a><div style="position: static;" class="intro4">.intro4:hover</div>
+<br style="clear: both">
+<a name="88"></a><div style="position: static;" class="intro5">.intro5:hover</div>
+<br style="clear: both">
+<a name="89"></a><div style="position: static;" class="intro6">.intro6:hover</div>
+<br style="clear: both">
+<a name="90"></a><div style="position: static;" class="intro7">.intro7:hover</div>
+<br style="clear: both">
+<a name="91"></a><div style="position: static;" class="intro8">.intro8:hover</div>
+<br style="clear: both">
+<a name="92"></a><div style="position: static;" class="intro9">.intro9:hover</div>
+<br style="clear: both">
+<a name="93"></a><p style="position: static;">p</p><br style="clear: both">
+<a name="94"></a><div style="position: static;" class="titre">.titre</div>
+<br style="clear: both">
+<a name="95"></a><div style="position: static;" class="titre">.titre:before</div>
+<br style="clear: both">
+<a name="96"></a><div style="position: static;" class="titre">.titre:hover:before</div>
+<br style="clear: both">
+<a name="97"></a><div style="position: static;" class="titre1">.titre1</div>
+<br style="clear: both">
+<a name="98"></a><div style="position: static;" class="titre1">.titre1:before</div>
+<br style="clear: both">
+<a name="99"></a><div style="position: static;" class="titre1">.titre1:hover:before</div>
+<br style="clear: both">
+<a name="100"></a><div style="position: static;" class="titre2">.titre2</div>
+<br style="clear: both">
+<a name="101"></a><div style="position: static;" class="titre2">.titre2:before</div>
+<br style="clear: both">
+<a name="102"></a><div style="position: static;" class="titre2">.titre2:hover:before</div>
+<br style="clear: both">
+<a name="103"></a><div style="position: static;" class="lignebis1">.lignebis1</div>
+<br style="clear: both">
+<a name="104"></a><div style="position: static;" class="lignebis">.lignebis</div>
+<br style="clear: both">
+<a name="105"></a><div style="position: static;" class="lignebis2">.lignebis2</div>
+<br style="clear: both">
+<a name="106"></a><div style="position: static;" class="lignebis3">.lignebis3</div>
+<br style="clear: both">
+<a name="107"></a><div style="position: static;" class="couleur">.couleur</div>
+<br style="clear: both">
+<a name="108"></a><div style="position: static;" class="box7">.box7</div>
+<br style="clear: both">
+<a name="109"></a><div style="position: static;" class="item12">.item12</div>
+<br style="clear: both">
+<a name="110"></a><div style="position: static;" class="box8">.box8</div>
+<br style="clear: both">
+<a name="111"></a><div style="position: static;" class="item13">.item13</div>
+<br style="clear: both">
+<a name="112"></a><div style="position: static;" class="box9">.box9</div>
+<br style="clear: both">
+<a name="113"></a><div style="position: static;" class="item14">.item14</div>
+<br style="clear: both">
+<a name="114"></a><div style="position: static;" class="box10">.box10</div>
+<br style="clear: both">
+<a name="115"></a><div style="position: static;" class="item15">.item15</div>
+<br style="clear: both">
+<a name="116"></a><div style="position: static;" class="box11">.box11</div>
+<br style="clear: both">
+<a name="117"></a><div style="position: static;" class="item16">.item16</div>
+<br style="clear: both">
+<a name="118"></a><div style="position: static;" class="box12">.box12</div>
+<br style="clear: both">
+<a name="119"></a><div style="position: static;" class="item17">.item17</div>
+<br style="clear: both">
+<a name="120"></a><div style="position: static;" class="box13">.box13</div>
+<br style="clear: both">
+<a name="121"></a><div style="position: static;" class="item18">.item18</div>
+<br style="clear: both">
+<a name="122"></a><div style="position: static;" class="box14">.box14</div>
+<br style="clear: both">
+<a name="123"></a><div style="position: static;" class="item19">.item19</div>
+<br style="clear: both">
+<a name="124"></a><div style="position: static;" class="beta">.beta</div>
+<br style="clear: both">
+<a name="125"></a><div style="position: static;" class="centrebis2">.centrebis2</div>
+<br style="clear: both">
+<a name="126"></a><div style="position: static;" class="btnbis2">.btnbis2</div>
+<br style="clear: both">
+<a name="127"></a><div style="position: static;" class="btnbis2">.btnbis2:before</div>
+<br style="clear: both">
+<a name="128"></a><div style="position: static;" class="btnbis2">.btnbis2:hover:before</div>
+<br style="clear: both">
+<a name="129"></a><div style="position: static;" class="fleche">.fleche</div>
+<br style="clear: both">
+<a name="130"></a><div style="position: static;" class="fleche1">.fleche1</div>
+<br style="clear: both">
+<a name="131"></a><div style="position: static;" class="beta4">.beta4</div>
+<br style="clear: both">
+<a name="132"></a><div style="position: static;" class="centrebis3">.centrebis3</div>
+<br style="clear: both">
+<a name="133"></a><div style="position: static;" class="btnbis3">.btnbis3</div>
+<br style="clear: both">
+<a name="134"></a><div style="position: static;" class="btnbis3">.btnbis3:before</div>
+<br style="clear: both">
+<a name="135"></a><div style="position: static;" class="btnbis3">.btnbis3:hover:before</div>
+<br style="clear: both">
+<a name="136"></a><div style="position: static;" class="fleche3">.fleche3</div>
+<br style="clear: both">
+<a name="137"></a><div style="position: static;" class="fleche4">.fleche4</div>
+<br style="clear: both">
+<a name="138"></a><div style="position: static;" class="beta5">.beta5</div>
+<br style="clear: both">
+<a name="139"></a><div style="position: static;" class="centrebis4">.centrebis4</div>
+<br style="clear: both">
+<a name="140"></a><div style="position: static;" class="btnbis4">.btnbis4</div>
+<br style="clear: both">
+<a name="141"></a><div style="position: static;" class="btnbis4">.btnbis4:before</div>
+<br style="clear: both">
+<a name="142"></a><div style="position: static;" class="btnbis4">.btnbis4:hover:before</div>
+<br style="clear: both">
+<a name="143"></a><div style="position: static;" class="fleche5">.fleche5</div>
+<br style="clear: both">
+<a name="144"></a><div style="position: static;" class="fleche6">.fleche6</div>
+<br style="clear: both">
+<a name="145"></a><div style="position: static;" class="beta6">.beta6</div>
+<br style="clear: both">
+<a name="146"></a><div style="position: static;" class="price13">.price13</div>
+<br style="clear: both">
+<a name="147"></a><div style="position: static;" class="price14">.price14</div>
+<br style="clear: both">
+<a name="148"></a><div style="position: static;" class="price15">.price15</div>
+<br style="clear: both">
+<a name="149"></a><div style="position: static;" class="price16">.price16</div>
+<br style="clear: both">
+<a name="150"></a><div style="position: static;" class="price17">.price17</div>
+<br style="clear: both">
+<a name="151"></a><div style="position: static;" class="price18">.price18</div>
+<br style="clear: both">
+<a name="152"></a><div style="position: static;" class="price19">.price19</div>
+<br style="clear: both">
+<a name="153"></a><div style="position: static;" class="price20">.price20</div>
+<br style="clear: both">
+<a name="154"></a><div style="position: static;" class="price21">.price21</div>
+<br style="clear: both">
+<a name="155"></a><div style="position: static;" class="price7">.price7</div>
+<br style="clear: both">
+<a name="156"></a><div style="position: static;" class="price8">.price8</div>
+<br style="clear: both">
+<a name="157"></a><div style="position: static;" class="price9">.price9</div>
+<br style="clear: both">
+<a name="158"></a><div style="position: static;" class="price10">.price10</div>
+<br style="clear: both">
+<a name="159"></a><div style="position: static;" class="price11">.price11</div>
+<br style="clear: both">
+<a name="160"></a><div style="position: static;" class="price12">.price12</div>
+<br style="clear: both">
+<a name="161"></a><div style="position: static;" class="box15">.box15</div>
+<br style="clear: both">
+<a name="162"></a><div style="position: static;" class="item20">.item20</div>
+<br style="clear: both">
+<a name="163"></a><div style="position: static;" class="box16">.box16</div>
+<br style="clear: both">
+<a name="164"></a><div style="position: static;" class="item21">.item21</div>
+<br style="clear: both">
+<a name="165"></a><div style="position: static;" class="box17">.box17</div>
+<br style="clear: both">
+<a name="166"></a><div style="position: static;" class="item22">.item22</div>
+<br style="clear: both">
+<a name="167"></a><div style="position: static;" class="box18">.box18</div>
+<br style="clear: both">
+<a name="168"></a><div style="position: static;" class="item23">.item23</div>
+<br style="clear: both">
+<a name="169"></a><div style="position: static;" class="omega">.omega</div>
+<br style="clear: both">
+<a name="170"></a><div style="position: static;" class="omega4">.omega4</div>
+<br style="clear: both">
+<a name="171"></a><div style="position: static;" class="omega5">.omega5</div>
+<br style="clear: both">
+<a name="172"></a><div style="position: static;" class="omega6">.omega6</div>
+<br style="clear: both">
+<a name="173"></a><div style="position: static;" class="cube">.cube</div>
+<br style="clear: both">
+<a name="174"></a><div style="position: static;" class="title">.title</div>
+<br style="clear: both">
+<a name="175"></a><div style="position: static;" class="title">.title:before</div>
+<br style="clear: both">
+<a name="176"></a><div style="position: static;" class="title">.title:hover:before</div>
+<br style="clear: both">
+<a name="177"></a><div style="position: static;" class="cube1">.cube1</div>
+<br style="clear: both">
+<a name="178"></a><div style="position: static;" class="title1">.title1</div>
+<br style="clear: both">
+<a name="179"></a><div style="position: static;" class="title1">.title1:before</div>
+<br style="clear: both">
+<a name="180"></a><div style="position: static;" class="title1">.title1:hover:before</div>
+<br style="clear: both">
+<a name="181"></a><div style="position: static;" class="cube2">.cube2</div>
+<br style="clear: both">
+<a name="182"></a><div style="position: static;" class="title2">.title2</div>
+<br style="clear: both">
+<a name="183"></a><div style="position: static;" class="title2">.title2:before</div>
+<br style="clear: both">
+<a name="184"></a><div style="position: static;" class="title2">.title2:hover:before</div>
+<br style="clear: both">
+<a name="185"></a><div style="position: static;" class="price22">.price22</div>
+<br style="clear: both">
+<a name="186"></a><div style="position: static;" class="price23">.price23</div>
+<br style="clear: both">
+<a name="187"></a><div style="position: static;" class="price24">.price24</div>
+<br style="clear: both">
+<a name="188"></a><div style="position: static;" class="price25">.price25</div>
+<br style="clear: both">
+<a name="189"></a><div style="position: static;" class="price26">.price26</div>
+<br style="clear: both">
+<a name="190"></a><div style="position: static;" class="price27">.price27</div>
+<br style="clear: both">
+<a name="191"></a><div style="position: static;" class="price28">.price28</div>
+<br style="clear: both">
+<a name="192"></a><div style="position: static;" class="price29">.price29</div>
+<br style="clear: both">
+<a name="193"></a><div style="position: static;" class="price30">.price30</div>
+<br style="clear: both">
+
+</body></html>

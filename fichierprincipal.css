@@ -72,6 +72,8 @@
 }
 
 .item2 {
+	font-family:Lobster;
+	background-color: #FCDFDB;
   box-shadow: 1px 1px 3px 4px #bfbfbf;
   width: 140px;
   height: 180px;
@@ -79,20 +81,21 @@
 }
 
 .item3 {
-  background-color: #e8e8e8;
+  background-color:#F9F9F9;
   box-shadow: 1px 1px 3px 4px #bfbfbf;
   width: 140px;
   height: 180px;
 }
 
 .item4 {
-  background-color: #f6daed;
+  background-color:#FFF5FE;
   width: 140px;
   height: 180px;
   box-shadow: 1px 1px 3px 4px #bfbfbf;
 }
 
 .item5 {
+ 
   background-color: #ffffff;
   width: 140px;
   height: 180px;
@@ -122,17 +125,20 @@
 }
 /* mise en page item2 */
 
-.intro1 {
-  margin-left: 45px;
-}
+.fa-itunes-note {
+  color:  #F15861;
+  margin-left: 60px;
+  margin-top: 40px
+    
+}   
 
 .intro2 {
   width: 100px;
   height: 22px;
   font-size: 13px;
   margin-left: 20px;
-  background-color: white;
   margin-top: 30px;
+  
 }
 
 a {
@@ -140,18 +146,22 @@ a {
 }
 
 .intro3 {
-  font-size: 13px;
-  margin-top: 20px;
-  margin-left: 50px;
+	
+ color:#000000;
+  font-size: 20px;
+  margin-top: -5px;
+  margin-left: 30px;
 }
 
 .intro4 {
+color: #2E6DEC;	
   font-size: 13px;
   margin-left: 20px;
   margin-top: 70px;
 }
 
 .intro5 {
+color: #0887FB;	
   font-size: 13px;
   margin-top: 20px;
   margin-left: 50px;
@@ -161,9 +171,11 @@ a {
   font-size: 13px;
   margin-left: 10px;
   margin-top: 95px;
+  color:   #AC6BAF;
 }
 
 .intro7 {
+	color: #C77412;
   font-size: 13px;
   margin-top: 25px;
   margin-left: 50px;
@@ -173,12 +185,14 @@ a {
   font-size: 13px;
   margin-left: 30px;
   margin-top: 70px;
+  color: #72BF56;     
 }
 
 .intro9 {
   font-size: 13px;
   margin-top: 20px;
   margin-left: 50px;
+  color: #72BF56;
 }
 
 /*css pied de page de tout les menus */
@@ -496,8 +510,8 @@ background-color: #000000;
 }
 
 /* effet  zoom et opacite  pour le menu principal */
-
-.intro1,
+  
+.fa-itunes-note
 .intro2,
 .intro3,
 .intro4,
@@ -506,12 +520,12 @@ background-color: #000000;
 .intro7,
 .intro8,
 .intro9 {
-  transition: transform ease-in-out 1s;
+  transition: ease-in-out 1s;
 }
-
-.intro1:hover,
+ 
+.fa-itunes-note:hover,
 .intro2:hover,
-.intro3:hover,
+.intro3:hover, 
 .intro4:hover,
 .intro5:hover,
 .intro6:hover,
@@ -745,27 +759,26 @@ p {
 .btnbis2 {
   font-size: 12px;
   position: relative;
-  color: black;
+  color: #C67412;
   display: block;
   font-size: 15px;
   font-family: "lato";
   text-decoration: none;
   padding: 20px 30px;
-  transition: 1s all ease;
+ 
 }
 .btnbis2:before {
   background: black;
   content: "";
   position: absolute;
   top: 65%;
-  left: 12%;
-  z-index: -1; /* pour qu'il se mette en dessous du titre  test après */
-  transition: all 0.6s ease;
+  left: 13%;
   width: 0%;
-  height: 1.5%;
+  height:1.6px;
+  transition: ease-in-out 0.6s;   
 }
 .btnbis2:hover:before {
-  width: 70%;
+  width: 67%;
 }
 
 .fleche {
@@ -803,7 +816,7 @@ p {
 .btnbis3 {
   font-size: 12px;
   position: relative;
-  color: black;
+  color:#A56799;
   display: block;
   font-size: 15px;
   font-family: "lato";
@@ -816,8 +829,8 @@ p {
   content: "";
   position: absolute;
   top: 90%;
-  left: 13%;
-  transition: all 0.6s ease;
+  left: 5%;
+  transition:ease-in-out 0.6s;
   width: 0px;
   height: 1.6px;
 }
@@ -860,7 +873,7 @@ p {
 .btnbis4 {
   font-size: 12px;
   position: relative;
-  color: black;
+  color:#6E4CCC;
   display: block;
   font-size: 15px;
   font-family: "lato";

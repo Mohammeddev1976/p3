@@ -47,9 +47,7 @@ font-weight: bolder;
   height: 600px;
   background-color: #ffe0e0;  
 }
-p
-{
-}
+
 .entete.icones {
   display: flex;
   flex-direction: column;
@@ -127,8 +125,9 @@ p
   height: 60px;
   margin-top: 40px;
 }
+
 /* css animation pied de pages pour le menu principal + les 4 sous menus */
-a{
+h2{
   text-decoration: none;
    color: #ffcc00;
 }
@@ -345,3 +344,361 @@ margin-top: -10px;
 {
 margin-top: -15px;
 }
+/* css menu index5 (menu principal) */
+/*animation point de suspenson */
+
+.item0bis
+ {
+text-align: center;
+color:#FFCC00;
+margin-top: 2px;
+font-size: 20px;
+}
+
+.item0bis:after {
+  display: inline-block;
+  animation: dotty steps(1,end) 2s infinite;
+  content: '';
+
+}
+
+@keyframes dotty {
+  0%   { content: ''; }
+  25%  { content: '.'; }
+  50%  { content: '..'; }
+  75%  { content: '...'; }
+  100% { content: ''; }
+}
+
+.item-mp
+ {
+padding-top: 10px;
+text-align: center;
+color:#FFCC00;
+}
+
+.item1
+ {
+background-color:#579C87;
+width:460px;
+height: 70px;
+margin: auto ;
+margin-bottom:20px;
+ }
+
+.box1
+ {
+
+display: flex;
+justify-content:space-around;
+align-content:space-between ;
+flex-wrap:wrap;
+flex-direction:column;
+height: 600px;
+width: 450px;
+
+ }
+
+		.item2
+		{
+		display        : flex;
+		flex-direction : column;
+		align-items    : center;
+		justify-content: center;
+		box-shadow     :1px 1px 3px 4px #BFBFBF;
+		width          :200px;
+		height         : 250px;
+		text-decoration: none;
+		font-weight:bold;
+		background-color: #FCDFDB;
+		 
+		}
+
+.item3
+  {
+		display         : flex;
+		flex-direction  : column;
+		align-items     : center;
+		justify-content : center;
+		background-color:#E8E8E8;
+		box-shadow      :1px 1px 3px 4px #BFBFBF;
+		width           :200px;
+		height          : 250px;
+
+}
+
+ .item4
+			{
+			display         : flex;
+			flex-direction  : column;
+			align-items     : center;
+			justify-content : center;
+			background-color:#F6DAED;
+			width           :200px;
+			height          : 250px;
+			box-shadow      :1px 1px 3px 4px #BFBFBF;
+			
+			}
+
+.item.item5
+ {
+			display         : flex;
+			flex-direction  : column;
+			align-items     : center;
+			justify-content : center;
+			background-color:#FFFFFF;
+			width           :200px;
+			height          : 250px;
+			box-shadow      :1px 1px 3px 4px #BFBFBF;
+				
+}
+	.box2
+	{
+	display       : flex;
+	flex-direction: column;
+	height        : 40px;
+	width         : 250
+	margin-top    : 15px;
+	align-items   :center;
+	}
+
+.item6
+  {
+background-color:#289F77;
+height:30px;
+width:200px;
+border-radius: 6px 6px 6px 6px;
+}
+
+.item7
+  {
+background-color:#579C87;
+height:35px;
+width:460px;
+margin-top: 20px;
+}
+/* mise en page item2 */
+
+.intro1
+
+ {
+
+}
+
+.effet_zoom1
+ {
+ color: #000000;
+ font-size:14px;
+ font-family:"Segoe Print" ; 
+
+}
+
+a
+ {
+ text-decoration: none;
+}
+
+
+.effet_zoom2
+ {
+ font-size:14px;
+ color:#0887FB ;
+	font-family: "Segoe Print" ;
+}
+
+
+.effet_zoom3
+ {
+ color: #C77412;
+ font-size:14px;
+}
+
+
+
+.effet_zoom4
+ {
+ 	
+ font-size:14px;
+		font-family: "Segoe Print";
+		color: #72BF56;
+}
+
+
+/* effet graphique menu index-5.html */
+.item,.effet_zoom1
+ {
+transition: ease-in-out 1s;	
+}
+
+.item:hover .effet_zoom1
+ {
+transform: scale(1.6);
+opacity: 0.7;
+}
+.item,.effet_zoom2
+ {
+transition: ease-in-out 1s;	
+}
+
+.item:hover .effet_zoom2
+ {
+transform: scale(1.4);
+opacity: 0.7;
+}
+.item,.effet_zoom3
+ {
+transition: ease-in-out 1s;	
+}
+
+.item:hover .effet_zoom3
+ {
+transform: scale(1.6);
+opacity: 0.7;
+}
+.item,.effet_zoom4
+ {
+transition: ease-in-out 1s;	
+}
+
+.item:hover .effet_zoom4
+ {
+transform: scale(1.6);
+opacity: 0.7;
+}
+/* media queries */
+@media  screen and (max-device-width: 540px){
+	
+.child.menu1
+ {
+width: 100%;
+}
+.child.menu4
+ {
+width: 100%;
+}
+.child.part1,.child.part2,.child.part3,.child.part4
+ {
+width: 100%;
+}
+/* media query sousmenu2 */
+.image1
+ {
+margin-right:35px;
+}
+.image2
+ {
+margin-left:35px;
+}
+/* media query sousmenu2 */
+.ligneverte1
+ {
+
+}
+
+/* media query sousmenu2 */
+.trait-bleu1
+{
+margin-right:22px;	
+}
+.trait-bleu2
+{
+margin-left:22px;		
+}
+/* media query menu5 */
+
+.box1
+ {
+align-content:center;width:100%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-device-width: 375px){
+
+
+
+}
+
+
+
+
+
+@media  screen and (max-device-width: 360px){
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-device-width: 320px){
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-device-width: 280px){
+
+
+
+}
+
+
+
+
+
+
+
+ 
+
+
+	

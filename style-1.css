@@ -169,14 +169,14 @@ h2{
 .descriptif-plat-menu2-debut
 {
  color: #C67412 ;
-font-size:10px;
+font-size:9px;
 font-family:sans-serif; 
 line-height: 20px;
 }
 .descriptif-plat-menu2-milieu
 {
 color: #A56799;
-font-size:10px;
+font-size:9px;
 font-family:sans-serif;
 line-height:20px;
 }
@@ -184,7 +184,7 @@ line-height:20px;
 {
 	margin-right: 100px;
 color:#6E4CCC;
-font-size:10px;
+font-size:9px;
 font-family:sans-serif; 
 line-height:20px;
 }
@@ -266,19 +266,19 @@ font-family: "Segoe Print", fantasy;
 /* css sousm-meu3 */
 .descriptif-plat-menu3-debut
 {
-font-size:10px;
+font-size:9px;
 font-family:sans-serif; 
 line-height: 20px;
 }
 .descriptif-plat-menu3-milieu
 {
-font-size:10px;
+font-size:9px;
 font-family:sans-serif;
 line-height:20px;
 }
 .descriptif-plat-menu3-fin
 {
-  font-size:10px;
+  font-size:9px;
   font-family:sans-serif; 
   line-height:20px;
   }
@@ -286,10 +286,10 @@ line-height:20px;
   .price23{margin-left: 120px;}
   .price24{margin-left: 85px;}
   .price25{margin-left: 100px;}
-  .price26{margin-left: 30px;}
+  .price26{margin-left: 40px;}
   .price27{margin-left: 215px;}
-  .price28{margin-left: 260px;}
-  .price29{margin-left: 35px;}
+  .price28{margin-left: 255px;}
+  .price29{margin-left: 45px;}
   .price30{margin-left: 80px;}
  /*css du sousmenu4 */
  .child.part4
@@ -321,14 +321,15 @@ line-height:20px;
   font-family:sans-serif;                                                                            
   line-height:20px;
   }
+		
   .price13{margin-left: 145px;}   
-  .price14{margin-left: 13px;}
-  .price15{margin-left: 180px;}
-  .price16{margin-left: 50px;}
-  .price17{margin-left: 140px;}
-  .price18{margin-left: 105px;}
-  .price19{margin-left: 165px;}
-  .price20{margin-left: 200px;}
+  .price14{margin-left: 45px;}
+  .price15{margin-left: 170px;}
+  .price16{margin-left: 80px;}
+  .price17{margin-left: 148px;}
+  .price18{margin-left: 127px;}
+  .price19{margin-left: 178px;}
+  .price20{margin-left: 205px;}
   .price21{margin-left: 210px;}
 /* css sous-menu2 ajustement des lignes */		
 .image1
@@ -439,17 +440,18 @@ margin-top: -12px;
 		
 		
 		
-}
+
 	/* css sous menu4 ajustement des lignes */	
 .trait-bleu1
 {
-margin-bottom: 15px;
-width:130px;
-height: 30px;  
+margin-right: 15px;
+margin-top: -10px;
+width: 130px;
+height:26px;  
 }	
 .trait-bleu2
 {
-margin-left: 15px;
+margin-left: 35px;
 margin-top: -15px;
 width:130px;
 height:30px;  
@@ -463,7 +465,7 @@ height:26px;
 }	
 .trait-bleu4
 {
-margin-top: -15px;
+margin-top: -17px;
 width:130px;
 height:36px;  
 }
@@ -475,7 +477,7 @@ height: 26px;
 }	
 .trait-bleu6
 {
-margin-top: -15px;
+margin-top: -17px;
 width:130px;
 height:36px;  
 }
@@ -788,55 +790,82 @@ width: 100%;
 /* media query sousmenu2 alignement  */
 .image1
  {
-margin-right:35px;
+width: 90px;
+margin-right:50px;
 }
 .image2
  {
+ 	width: 90px;
 margin-left:35px;
 }
 .image3
  {
+width: 90px;	
 margin-right:35px;
 }
 .image4
  {
+ 	width: 90px;
 margin-left:35px;
 }
 .image5
  {
+ 	width: 90px;
 margin-right:35px;
 }
 .image6
  {
+ 	width: 90px;
 margin-left:35px;
 }
 
 
-
-
-
-
-
-
-
-/* media query sousmenu2 */
-.ligneverte1
- {
-
 }
-
-/* media query sousmenu2 */
-.trait-bleu
+@media  screen and (max-device-width: 411px){
+/*css sous menu 4  */
+.trait-bleu1
 {
-margin-right:100px;	
+margin-right: 40px;
+margin-bottom:15px;
+width:100px;
+height: 30px;  
+}	
+.trait-bleu2
+{
+margin-left: 35px;
+margin-top: -15px;
+width:100px;
+height:30px;  
 }
 
-/* media query menu 1 a 4 */
-
-
-
+.trait-bleu3
+{
+	margin-right: 30px;
+margin-top: -10px;
+width:100px;
+height:26px;  
+}	
+.trait-bleu4
+{
+	margin-left: 35px;
+margin-top: -15px;
+width:100px;
+height:36px;  
 }
-@media  screen and (max-device-width: 360px){
+.trait-bleu5
+{
+margin-right: 30px;	
+margin-top: -10px;
+width:100px;
+height: 26px; 
+}	
+.trait-bleu6
+{
+	margin-left: 35px;
+margin-top: -15px;
+width:100px;
+height:36px;  
+}
 
 	
 
@@ -1010,7 +1039,8 @@ font-size: 7px;
 }
 .paragraphe.section
  {
-flex-wrap: nowrap;
+flex-wrap: wrap;
+width: 100%;
 }
 
 
@@ -1054,9 +1084,59 @@ margin-left:
  {
 margin-left: 
 }
+/*sous menu3*/
+.descriptif-plat-menu3-debut
+{
+font-size:5px;
+font-family:sans-serif; 
+line-height: 20px;
+}
+.descriptif-plat-menu3-milieu
+{
+font-size:5px;
+font-family:sans-serif;
+line-height:20px;
+}
+.descriptif-plat-menu3-fin
+{
+font-size:5px;
+font-family:sans-serif;
+line-height:20px;
 }
 
 
+
+  .price22{margin-left: 100px;}
+  .price23{margin-left: 80px;}
+  .price24{margin-left: 60px;}
+  .price25{margin-left: 75px;}
+  .price26{margin-left: 40px;}
+  .price27{margin-left: 135px;}
+  .price28{margin-left: 140px;}
+  .price29{margin-left: 20px;}
+  .price30{margin-left: 40px;}
+}
+/* css sous menu4 */
+	/* css sous-menu4 */
+.descriptif-plat-menu4-debut
+{
+font-size:7px;
+font-family:sans-serif; 
+line-height: 20px;
+}
+.descriptif-plat-menu4-milieu
+{
+font-size:7px;
+font-family:sans-serif;
+line-height:20px;
+}
+.descriptif-plat-menu4-fin
+{
+  font-size:7px;
+  font-family:sans-serif;                                                                            
+  line-height:20px;
+  }
+		
 
 
 
@@ -1100,7 +1180,7 @@ margin-left: 110px;
 margin-left: 120px;
 }
 
-
+/* css menu */
 .trait-gauche
  {
 margin-right: 10px;
@@ -1108,16 +1188,59 @@ width: 80px;
 }
 .trait-droite
  {
-
 width: 80px;
 }
-
-
-
+/*  */
 .titre-menu,.child.menu2
  {
 width: 100%;
 }
+/* css menu4 */
+  .price16{margin-left: 65px;}
+  .price17{margin-left: 133px;}
+  .price18{margin-left: 110px;}
+  .price19{margin-left: 150px;}
+  .price20{margin-left: 175px;}
+  .price21{margin-left: 180px;}
+		
+.trait-bleu1
+{
+
+width:70px;
+
+}	
+.trait-bleu2
+{
+
+width:70px;
+ 
+}
+
+.trait-bleu3
+{
+
+width:70px;
+
+}	
+.trait-bleu4
+{
+
+width:70px;
+
+}
+.trait-bleu5
+{
+
+width:70px;
+
+}	
+.trait-bleu6
+{
+
+width:70px;
+
+}
+
 
 }
 

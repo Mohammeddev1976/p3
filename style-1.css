@@ -3,14 +3,11 @@ body {
   margin: 0%;
   padding: 0%;
 }
-
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
-
 /*css div d entete "oh my food" pour les 4 sous menu  */		
 .child.menu1 {
   display: flex;
@@ -20,14 +17,12 @@ body {
   width: 600px;
   height: 80px;
 }
-	
 .entreprise-name 
 {
   color: #ffcc00;
   font-size: 50px;
 }
 /*  */  /*  *//*  */ /*  */
-
 /*css sous menu index-html1 */
 .intitule-menu-premier
 	 {
@@ -35,18 +30,14 @@ font-size: 20px;
 font-family:"Segoe Print", sans-serif;
 font-weight: bolder;
 	}
-
 .menu2 {
-		
   width: 300px;
   height: 60px;
   background-color: white;
 }
-										
 .titre-menu {
   text-align: center;
 }
-
 .child.part1{
   display: flex;
   flex-direction: column;
@@ -56,10 +47,8 @@ font-weight: bolder;
   height: 600px;
   background-color: #ffe0e0;  
 }
-
 p
 {
- 
 }
 .entete.icones {
   display: flex;
@@ -71,13 +60,12 @@ p
 .icons-title2.title-m2{
  font-size: 22px;
  color:#C67412 
-  
 }   
 .fa-music {
   color: orange;
   font-size: 30px;
 }
-	
+
 .paragraphe.section
 {
   display: flex;
@@ -90,32 +78,23 @@ p
   font-size: 9px;
 }
 .price{margin-left: 25px;}
-
 .price1{margin-left: 65px;}
-
 .price2{margin-left: 26px;}
-
 .price3{margin-left: 16px;}
-
 .price4{margin-left: 3px;}
-
 .price5{margin-left: 100px;}
-
 .price6{margin-left: 16px;}
-
 .trait-gauche {
   width: 120px;
   height: 3px;		
   background-color: black;
  	margin-right: 60px;
 }
-
 .trait-droite {
   width: 120px;
   height: 3px;
   background-color: black;
  		 	margin-left: 60px;
-
 }
 	/* css menu1 */
 .trait-centre.trait-centre-m1
@@ -126,7 +105,6 @@ p
   cursor: pointer;
 		margin-top: -10px;
 }
-
 .trait-centre:after {
   margin-top: 18px;
   margin-left: -100%;
@@ -137,22 +115,18 @@ p
   background-color: black;
   transition: ease-in-out 0.4s;
 }
-
 .trait-centre:hover:after
  {
   width: 100%;
 }
-
 .menu4 {
   display: flex;
-
   justify-content: space-around;
   background-color: #579c87;
   width: 600px;
   height: 60px;
   margin-top: 40px;
 }
-
 /* css animation pied de pages pour le menu principal + les 4 sous menus */
 a{
   text-decoration: none;
@@ -161,17 +135,14 @@ a{
   .info.contact1:hover {
     animation: identifier .2s ease-in-out infinite alternate;
   }
-
   .info.contact2:hover {
     animation: identifier .2s ease-in-out infinite alternate;
   }
-
   @keyframes identifier {
     from {
       transform: rotate(25deg);
       -webkit-transform: rotate(25deg);
     }
-
     to {
       -webkit-transform: rotate(-25deg);
       transform: rotate(-25deg);
@@ -179,11 +150,9 @@ a{
       transform-origin: center;
     }
   }
-
 /*css  texte sous menu2  */       
 .descriptif-plat-menu2-debut
 {
-
  color: #C67412 ;
 font-size:10px;
 font-family:sans-serif; 
@@ -202,7 +171,6 @@ line-height:20px;
 color:#6E4CCC;
 font-size:10px;
 font-family:sans-serif; 
-
 line-height:20px;
 }
 /*  *//*  */ /*  */
@@ -215,9 +183,7 @@ line-height:20px;
   height: 600px;
   background-color: #fff5fe
 }
-
 	/* css menu2 */
-
 /* css: couleur  intitule entrée,plat,dessert sous_menu2 */
 .cible-couleur-text1	
   {
@@ -234,7 +200,6 @@ line-height:20px;
  color: #6E4CCC;
  	font-family: "Bahnschrift SemiBold"; 
  }
-
  /* css titre partie centrale   menu1 */
 .title-m1{
  font-size: 22px;
@@ -265,20 +230,13 @@ font-family: "Segoe Print", fantasy;
  color:#0887FB;
 }
 /*  *//*  *//*  *//*  */
-   
 /* positionnement des prix  sous menu2 */
 .prix-entrée1{margin-left: 100px;}
-
 .prix-entrée2{margin-left: 175px;}
-
-.prix-entrée3{margin-left: 150px;}
-
+.prix-entrée3{margin-left: 182px;}
 .prix-plat1{margin-left: 25px;}
-
 .prix-plat2{margin-left: 65px;}
-
 .prix-plat3{margin-left: 35px;}
-
 /*css sous menu3  */
 .child.part3
  {
@@ -290,51 +248,34 @@ font-family: "Segoe Print", fantasy;
     height: 600px;
    background-color: #fdfffd; 
   }
-
 /* css sousm-meu3 */
-
 .descriptif-plat-menu3-debut
 {
-
 font-size:10px;
 font-family:sans-serif; 
-
 line-height: 20px;
 }
 .descriptif-plat-menu3-milieu
 {
-
 font-size:10px;
 font-family:sans-serif;
-
 line-height:20px;
 }
 .descriptif-plat-menu3-fin
 {
-  
   font-size:10px;
   font-family:sans-serif; 
-  
   line-height:20px;
   }
   .price22{margin-left: 155px;}
-
   .price23{margin-left: 120px;}
-  
   .price24{margin-left: 85px;}
-  
   .price25{margin-left: 100px;}
-  
   .price26{margin-left: 30px;}
-  
   .price27{margin-left: 215px;}
-  
   .price28{margin-left: 260px;}
-  
   .price29{margin-left: 35px;}
-  
   .price30{margin-left: 80px;}
-
  /*css du sousmenu4 */
  .child.part4
  {
@@ -349,62 +290,58 @@ line-height:20px;
 	/* css sous-menu4 */
 .descriptif-plat-menu4-debut
 {
-
 font-size:10px;
 font-family:sans-serif; 
-
 line-height: 20px;
 }
 .descriptif-plat-menu4-milieu
 {
-
 font-size:10px;
 font-family:sans-serif;
-
 line-height:20px;
 }
 .descriptif-plat-menu4-fin
 {
-  
   font-size:10px;
   font-family:sans-serif;                                                                            
-  
   line-height:20px;
   }
   .price13{margin-left: 145px;}   
-
   .price14{margin-left: 13px;}
-  
   .price15{margin-left: 180px;}
-  
   .price16{margin-left: 50px;}
-  
   .price17{margin-left: 140px;}
-  
   .price18{margin-left: 105px;}
-  
   .price19{margin-left: 165px;}
-  
   .price20{margin-left: 200px;}
-  
   .price21{margin-left: 210px;}
-/* css sous-menu2 */		
+/* css sous-menu2 ajustement des lignes */		
 .image1
  {
-margin-top: -23px;
+margin-bottom: 3px;
+margin-top: -28px;
 }
 .image2
  {
-margin-top: -16px;
+margin-top: -12px;
 }
-	/* css sous menu3 */	
+/*css sous menu 3 ajustement des lignes   */
+.ligneverte1
+ {
+ 	margin-top: -23px;
+		margin-right: 50px;
+}
+.ligneverte2
+ {
+ 	margin-left: 50px;
+ 	margin-top: -15px;	
+}
+	/* css sous menu4 ajustement des lignes */	
 .trait-bleu1
 {
 margin-top: -10px;
-}
-		
+}	
 .trait-bleu2
 {
 margin-top: -15px;
 }
-		

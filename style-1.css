@@ -1,7 +1,8 @@
 html,
 body {
-  margin: 0%;
-  padding: 0%;
+margin:0px;
+padding: 0px;
+	height: 100vw;
 }
 .container {
   display: flex;
@@ -9,6 +10,13 @@ body {
   align-items: center;
 	
 }
+
+h1
+ {
+margin: 0px
+}
+
+
 /*css div d entete "oh my food" pour les 4 sous menu  */		
 .child.menu1 {
   display: flex;
@@ -45,10 +53,14 @@ font-weight: bolder;
   justify-content:space-around;
   align-items: center;
   width: 460px;
-  height: 600px;
+  height: 500px;
   background-color: #ffe0e0;  
 }
-
+.note-musique
+ {
+font-family:"Segoe Print", sans-serif;
+margin-top: -70px;
+}
 .entete.icones {
   display: flex;
   flex-direction: column;
@@ -70,7 +82,8 @@ font-weight: bolder;
   display: flex;
   justify-content:space-around;
   flex-direction:row;
-  flex-wrap:wrap; 
+  flex-wrap:wrap;
+		margin-top: -82px; 
 }
 .descriptif-plat {
   font-family: 'Segoe Script';
@@ -126,21 +139,11 @@ font-weight: bolder;
   background-color: #579c87;
   width: 600px;
   height: 60px;
-  margin-top: 40px;
+
+		position: fixed;
+		bottom: 0%;
 }
-/* css pied de page menu5 */
-.menu5
- {
- display: flex;
-  justify-content: space-around;
-		flex-direction: row;
-		flex-wrap: nowrap;
-  background-color: #579c87;
-  width: 600px;
- 
-  height: 60px;
- 
-}
+
 
 /* css animation pied de pages pour le menu principal + les 4 sous menus */
 h2{
@@ -195,7 +198,7 @@ line-height:20px;
   justify-content: space-around;
   align-items: center;
   width: 460px;
-  height: 600px;
+  height: 500px;
   background-color: #fff5fe
 }
 	/* css menu2 */
@@ -260,7 +263,7 @@ font-family: "Segoe Print", fantasy;
     justify-content: space-around;
     align-items: center;
     width: 460px;
-    height: 600px;
+    height: 500px;
    background-color: #fdfffd; 
   }
 /* css sousm-meu3 */
@@ -299,7 +302,7 @@ line-height:20px;
     justify-content: space-around;
     align-items: center;
     width: 460px;
-    height: 600px;
+    height:500px;
     background-color: #edefef; 
   }
 	/* css sous-menu4 */
@@ -372,15 +375,6 @@ margin-top: -28px;
 margin-top: -12px;
 }
 
-
-
-
-
-
-
-
-
-
 /*css sous menu 3 ajustement des lignes   */
 .ligneverte1
  {
@@ -424,22 +418,11 @@ margin-top: -12px;
 		width: 130px;
 		height: 30px;
 	}	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	/* css sous menu3 */
+	.paragraphe.icones
+ {
+margin-top: -40px;
+}
 
 	/* css sous menu4 ajustement des lignes */	
 .trait-bleu1
@@ -482,21 +465,6 @@ width:130px;
 height:36px;  
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* css menu index5 (menu principal) */
 /*animation point de suspenson */
 
@@ -504,7 +472,7 @@ height:36px;
  {
 text-align: center;
 color:#FFCC00;
-margin-top: 2px;
+
 font-size: 20px;
 }
 
@@ -547,9 +515,10 @@ justify-content:space-around;
 align-content:space-between ;
 flex-wrap: wrap;
 flex-direction:column;
-height: 600px;
-width: 450px;
+height: 500px;
+width: 400px;
 margin: auto;
+margin-bottom: 10px;
  }
 
 		.item2
@@ -559,8 +528,8 @@ margin: auto;
 		align-items    : center;
 		justify-content: center;
 		box-shadow     :1px 1px 3px 4px #BFBFBF;
-		width          :200;
-		height         : 250px;
+		width          :180px;
+		height         : 210px;
 		text-decoration: none;
 		font-weight:bold;
 		background-color:#FCDFDB;
@@ -573,10 +542,10 @@ margin: auto;
 		flex-direction  : column;
 		align-items     : center;
 		justify-content : center;
-		background-color:#E8E8E8;
+		background-color:#F9F9F9;
 		box-shadow      :1px 1px 3px 4px #BFBFBF;
-		width           :200px;
-		height          : 250px;
+		width          :180px;
+		height         : 210px;
 
 }
 
@@ -586,9 +555,9 @@ margin: auto;
 			flex-direction  : column;
 			align-items     : center;
 			justify-content : center;
-			background-color:#F6DAED;
-			width           :200px;
-			height          : 250px;
+			background-color:#FFF5FE;
+		width          :180px;
+		height         : 210px;
 			box-shadow      :1px 1px 3px 4px #BFBFBF;
 			
 			}
@@ -600,8 +569,8 @@ margin: auto;
 			align-items     : center;
 			justify-content : center;
 			background-color:#FFFFFF;
-			width           :200px;
-			height          : 250px;
+			width          :180px;
+		height         : 210px;
 			box-shadow      :1px 1px 3px 4px #BFBFBF;
 				
 }
@@ -612,7 +581,7 @@ margin: auto;
 	flex-direction: column;
 	height        : 40px;
 	width         : 250
-	margin-top    : 15px;
+	margin-top    : -20px;
 	align-items   :center;
 	}
 
@@ -681,8 +650,8 @@ transition: ease-in-out 1s;
 
 .item:hover .effet_zoom1
  {
-transform: scale(1.6);
-opacity: 0.7;
+transform: scale(1.4);
+opacity: 0.4;
 }
 .item,.effet_zoom2
  {
@@ -692,7 +661,7 @@ transition: ease-in-out 1s;
 .item:hover .effet_zoom2
  {
 transform: scale(1.4);
-opacity: 0.7;
+opacity: 0.4;
 }
 .item,.effet_zoom3
  {
@@ -701,8 +670,8 @@ transition: ease-in-out 1s;
 
 .item:hover .effet_zoom3
  {
-transform: scale(1.6);
-opacity: 0.7;
+transform: scale(1.4);
+opacity: 0.4;
 }
 .item,.effet_zoom4
  {
@@ -711,14 +680,12 @@ transition: ease-in-out 1s;
 
 .item:hover .effet_zoom4
  {
-transform: scale(1.6);
-opacity: 0.7;
+transform: scale(1.4);
+opacity: 0.4;
 }
 /* media queries */
 @media  screen and (max-device-width: 540px){	
 /* sou smenu1 */
-
-
 
 .info.contact1
  {
@@ -731,12 +698,6 @@ font-size: 12px;
 }
 /* css sous menu5 */
 
-.box2
-  {
- 
-width: 100%;
-
-}
 
 .menu5
  { 	
@@ -748,14 +709,22 @@ width: 100%;
 .item3,
 .item4,
 .item5
- { 
+ {
 width: 100%;
+
+
 }
 .box1
  {
- height: 100%;
-width: 100%;
 display: block;
+width: 100%;
+margin-bottom:40px;
+}
+.box2
+  {
+  display:none;
+
+
 }
 /*  *//*  *//*  */
 .info.contact1
@@ -769,6 +738,7 @@ display: block;
 
 .child.menu1
  {
+ 	
 width: 100%;
 }
 .child.menu4
@@ -819,7 +789,6 @@ margin-right:35px;
 margin-left:35px;
 }
 
-
 }
 @media  screen and (max-device-width: 411px){
 /*css sous menu 4  */
@@ -867,13 +836,6 @@ width:100px;
 height:36px;  
 }
 
-	
-
-
-
-
-
-
 /* css menu3 alignement de prix */
 .price22
  {
@@ -912,9 +874,6 @@ margin-left:0px;
 margin-left: 39px;
 }
 
-
-
-
 /* css menu1 */
 
 .trait-gauche
@@ -930,6 +889,24 @@ width: 80px;
 
 }
 
+.prix-plat1
+ {
+margin-left: 15px;
+}	
+
+.prix-plat2
+ {
+margin-left: 55px;
+}	
+
+.prix-plat3
+ {
+margin-left: 20px;
+}
+
+@media screen and (max-device-width: 360px){
+
+}
 
 
 
@@ -953,27 +930,6 @@ width: 80px;
 
 
 	
-
-
-
-
-
-
-
-.prix-plat1
- {
-margin-left: 15px;
-}	
-
-.prix-plat2
- {
-margin-left: 55px;
-}	
-
-.prix-plat3
- {
-margin-left: 20px;
-}	
 
 @media  screen and (max-device-width: 320px){
 	/* ccs menu3 */
@@ -1015,22 +971,6 @@ margin-top: -15px;
 width: 80px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*css menu1 */
 .descriptif-plat
  {
@@ -1041,9 +981,8 @@ font-size: 7px;
  {
 flex-wrap: wrap;
 width: 100%;
+
 }
-
-
 
 .image1
  {
@@ -1053,13 +992,6 @@ width: 100%;
  {
 
 }
-
-
-
-
-
-
-
 
 .price
  {
@@ -1104,8 +1036,6 @@ font-family:sans-serif;
 line-height:20px;
 }
 
-
-
   .price22{margin-left: 100px;}
   .price23{margin-left: 80px;}
   .price24{margin-left: 60px;}
@@ -1136,21 +1066,6 @@ line-height:20px;
   font-family:sans-serif;                                                                            
   line-height:20px;
   }
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media  screen and (max-device-width: 280px){
 .prix-plat1
@@ -1241,6 +1156,4 @@ width:70px;
 
 }
 
-
 }
-
